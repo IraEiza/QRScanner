@@ -14,7 +14,7 @@ function App() {
   };
 
   const handleScanError = (error) => {
-    console.error('Scan error:', error);
+    // console.error('Scan error:', error);
   };
 
   return (
