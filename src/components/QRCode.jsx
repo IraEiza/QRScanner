@@ -10,7 +10,7 @@ const QRComponent = () => {
         size={256} // Tamaño del código QR
         bgColor={"#ffffff"} // Color de fondo
         fgColor={"#000000"} // Color del código QR
-        level={"H"} // Nivel de error (L, M, Q, H)
+        level={"Q"} // Nivel de error (L, M, Q, H)
       />
     </div>
     

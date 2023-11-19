@@ -29,7 +29,7 @@ function App() {
       </div>
      
       <br></br>
-      <QRComponent/>
+      {/* <QRComponent/> */}
     </div>
   );
 }
