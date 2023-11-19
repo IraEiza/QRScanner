@@ -18,14 +18,13 @@ function App() {
       <h1>Escáner de Códigos QR</h1>
       <div className='scanner'>
         <QRScanner
-          className="pad"
           onScanSuccess={handleScanSuccess}
           onScanError={handleScanError}
         />
       </div>
      
       <br></br>
-      <QRComponent/>ç
+      <QRComponent/>
     </div>
   );
 }
