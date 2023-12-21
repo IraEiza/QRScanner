@@ -7,7 +7,7 @@ const QRCodeScanner = ({ onScanSuccess, onScanError }) => {
   useEffect(() => {
     // Configura el lector de QR
     const html5QrcodeScanner = new Html5QrcodeScanner(
-      "qr-reader",
+      "qr-reader-trial",
       { fps: 10, qrbox: 250 },
       false
     );
@@ -21,7 +21,7 @@ const QRCodeScanner = ({ onScanSuccess, onScanError }) => {
     };
   }, [onScanSuccess, onScanError]);
 
-  return <div id="qr-reader" ref={qrScannerRef} />;
+  return <div id="qr-reader-trial" ref={qrScannerRef} />;
 };
 
 export default QRCodeScanner;
